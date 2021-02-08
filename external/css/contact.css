@@ -362,6 +362,7 @@ a:hover {
 	border: none;
 	text-transform: uppercase;
 	font-weight: 600;
+	margin-top: -2.5px;
 }
 
 .dropdown {
@@ -388,8 +389,82 @@ a:hover {
 .dropdown-content a:hover {background-color: #ddd;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #222222;}
+/* ===================================================
+# FORM PART
+==================================================== */
+.textbox {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px #ccc;
+}
+input, #word {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Arial;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+    min-height: 100%;
+}
+#nyaw {
+	font-weight: 400;
+}
+#ako {
+    margin: 22px 0 4px;
+    color: #f82249;
+}
+.textbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 3px;
+}
+input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+input[type=text]:hover, textarea:hover {
+    outline: none;
+    border: 1px solid #095484;
+}
+.first-name {
+    margin-bottom: 22px;
+}
+
+.first-col {
+    width: 16%;
+    text-align: left;
+}
+textarea {
+    width: calc(100% - 6px);
+}
+.btn-block {
+    margin-top: 20px;
+    text-align: center;
+}
+input[type=submit], select {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: gray;
+    font-size: 16px;
+    color: #fff;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: black;
+}
 /* =====================================================
-# FOOTER PART
+# FOOTER
 ===================================================== */
 #footer {
   background: #101522;
@@ -417,6 +492,7 @@ a:hover {
   font-weight: 700;
   color: #fff;
 }
+
 #footer .footer-top .footer-info img {
   height: 40px;
   margin-bottom: 10px;
@@ -503,6 +579,27 @@ a:hover {
 
 #footer .footer-top .footer-newsletter {
   margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-newsletter input[type="email"] {
+  border: 0;
+  padding: 6px 8px;
+  width: 65%;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"] {
+  background: #f82249;
+  border: 0;
+  width: 35%;
+  padding: 6px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"]:hover {
+  background: #e0072f;
 }
 
 #footer .copyright {

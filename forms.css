@@ -1,0 +1,203 @@
+<style>
+      div, form, input, p {
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: Arial;
+      font-size: 14px;
+      color: #666;
+      line-height: 22px;
+      min-height: 100%;
+      }
+      h1 {
+      font-weight: 400;
+      }
+      h4 {
+      margin: 22px 0 4px;
+      color: #f82249;
+      }
+      .textbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: inherit;
+      padding: 3px;
+      }
+      form {
+      width: 100%;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 2px 5px #ccc;
+      }
+      input {
+      width: calc(100% - 10px);
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      vertical-align: middle;
+      }
+      input:hover, textarea:hover {
+      outline: none;
+      border: 1px solid #095484;
+      }
+      .first-name {
+      margin-bottom: 22px;
+      }
+
+      .first-col {
+      width: 16%;
+      text-align: left;
+      }
+
+      textarea {
+      width: calc(100% - 6px);
+      }
+      .btn-block {
+      margin-top: 20px;
+      text-align: center;
+      }
+      button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      background-color: gray;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      }
+      button:hover {
+      background-color: black;
+      }
+      /* =====================================================
+      # FOOTER PART
+      ===================================================== */
+      #footer {
+        background: #101522;
+        padding: 0 0 25px 0;
+        color: #eee;
+        font-size: 14px;
+      }
+
+      #footer .footer-top {
+        background: #040919;
+        padding: 30px;
+        margin-bottom: -25px;
+      }
+
+      #footer .footer-top .footer-info {
+        margin-bottom: 30px;
+      }
+
+      #footer .footer-top .footer-info h3 {
+        font-size: 26px;
+        margin: 0 0 20px 0;
+        padding: 2px 0 2px 0;
+        line-height: 1;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        color: #fff;
+      }
+      #footer .footer-top .footer-info img {
+        height: 40px;
+        margin-bottom: 10px;
+      }
+
+      #footer .footer-top .footer-info p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 0;
+        font-family: "Raleway", sans-serif;
+        color: #fff;
+      }
+
+      #footer .footer-top .social-links a {
+        font-size: 18px;
+        display: inline-block;
+        background: #222636;
+        color: #eee;
+        line-height: 1;
+        padding: 8px 0;
+        margin-right: 4px;
+        border-radius: 50%;
+        text-align: center;
+        width: 36px;
+        height: 36px;
+        transition: 0.3s;
+      }
+
+      #footer .footer-top .social-links a:hover {
+        background: #f82249;
+        color: #fff;
+      }
+
+      #footer .footer-top h4 {
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 12px;
+        border-bottom: 2px solid #f82249;
+      }
+
+      #footer .footer-top .footer-links {
+        margin-bottom: 30px;
+      }
+
+      #footer .footer-top .footer-links ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      #footer .footer-top .footer-links ul i {
+        padding-right: 5px;
+        color: #f82249;
+        font-size: 18px;
+      }
+
+      #footer .footer-top .footer-links ul li {
+        border-bottom: 1px solid #262c44;
+        padding: 10px 0;
+      }
+
+      #footer .footer-top .footer-links ul li:first-child {
+        padding-top: 0;
+      }
+
+      #footer .footer-top .footer-links ul a {
+        color: #eee;
+      }
+
+      #footer .footer-top .footer-links ul a:hover {
+        color: #f82249;
+      }
+
+      #footer .footer-top .footer-contact {
+        margin-bottom: 30px;
+      }
+
+      #footer .footer-top .footer-contact p {
+        line-height: 26px;
+      }
+
+      #footer .footer-top .footer-newsletter {
+        margin-bottom: 30px;
+      }
+
+      #footer .copyright {
+        text-align: center;
+        padding-top: 30px;
+      }
+
+      #footer .credits {
+        text-align: center;
+        font-size: 13px;
+        color: #ddd;
+      }
+
+}
+    </style>

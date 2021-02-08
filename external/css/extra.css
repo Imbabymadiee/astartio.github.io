@@ -396,6 +396,7 @@ a:hover {
 	border: none;
 	text-transform: uppercase;
 	font-weight: 600;
+	margin-top: -2.5px;
 }
 
 .dropdown {
